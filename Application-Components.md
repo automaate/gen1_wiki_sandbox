@@ -1,6 +1,6 @@
 # Summary
 
-A collection of applications are provided with MPLAB® Harmony Graphics Suite to help new users get started with MPLAB® Harmony Graphics Suite development. This page describes the makeup of a MPLAB® Harmony Graphics Suite application.
+A collection of applications are provided with MPLAB® Harmony Graphics Suite to help new users get started with MPLAB Harmony Graphics Suite development. This page describes the makeup of a MPLAB Harmony Graphics Suite application.
 
 ![Microchip Technology](images/architecture_harmony.png)
 
