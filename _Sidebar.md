@@ -3,7 +3,7 @@
    *   [Quickstart](Application-QuickStart)
    *   [Demonstrations](Application-Demonstrations)
    *   [Development Process](Application-Development-Process)
-       *   [MPLAB X](MPLAB-Development-Process)
+       *   [MPLAB X IDE](MPLAB-Development-Process)
        *   [IAR](IAR-Development-Process)
    *   [Migration](Application-Migration)
 * Drivers
