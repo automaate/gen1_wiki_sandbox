@@ -2,9 +2,7 @@
 
 A collection of driver development tutorials are provided with MPLAB Harmony Graphics
 Suite to help users develop graphics drivers using the MPLAB Harmony Graphics Suite
-development process.
-
-The MPLAB Harmony Graphics Suite offers display and touch driver development
+development process. This support includes: display and touch driver development
 support using MPLAB Harmony Configurator (MHC) display and touch configurable components.
 
 ## Display Driver Components
@@ -28,11 +26,10 @@ The drivers for maXTouch and peripheral touch are integrated, pre-coded and only
 A basic understanding of these components are helpful when creating drivers for
 other display and touch drivers.
 
-# Basic Driver Development Information
+# Basic Driver Development Support
 
-* [Display Driver Information](https://github.com/automaate/GFX_sandbox/wiki/display-driver)
-* [Touch Driver Information](https://github.com/automaate/GFX_sandbox/wiki/touch-driver)
-
+* [Display Driver Support](Display-Driver-Support)
+* [Touch Driver Support](Touch-Driver-Support)
 
 ***
 
@@ -44,8 +41,8 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/automaate/GFX_sandbox/issues).
+**Is this page helpful**? Send [feedback](issues).
 
 ### Next Steps
 
-* Learn about our graphics [quickstart guides](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart)
+* Learn about our graphics [quickstart guides](Application-QuickStart)

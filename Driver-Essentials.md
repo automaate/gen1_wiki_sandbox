@@ -1,8 +1,8 @@
-# ![Microchip Technology](images/mhgs.png) Driver Essentials
+# ![Microchip Technology](images/mhgs.png) Driver Fundamentals
 
-MPLAB Harmony Graphics Suite contains driver support for PIC32 and SAM peripheral on-chip hardware graphics controllers, direct-drive software graphics controllers and 3rd-party off-chip hardware graphics controllers. This article discusses the essentials of the graphics display driver framework and the pre-built graphics drivers used in applications on Microchip [supported development boards](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards).
+MPLAB Harmony Graphics Suite contains driver support for PIC32 and SAM peripheral on-chip hardware graphics controllers, direct-drive software graphics controllers and 3rd-party off-chip hardware graphics controllers. This article discusses the essentials of the graphics display driver framework and the pre-built graphics drivers used in applications on Microchip [supported development boards](Supported-Development-Boards).
 
-For other 3rd-Party display controllers, use the MPLAB Harmony Graphics Suite graphics driver generator to create an appropriate Harmony driver. See [Generate my display driver.](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards)
+For other 3rd-Party display controllers, use the MPLAB Harmony Graphics Suite graphics driver generator to create an appropriate Harmony driver. See [driver development process.](Driver-Development-Process)
 
 ## Essentials of the Graphics Display Driver
 
@@ -21,7 +21,7 @@ When rendering to the display module, the default behavior for the graphics driv
 
 
 
-The display driver API includes the functions supported by a specific display controller or graphics processing unit. It contains the API which connects the common abstraction to the driver implementation. It is not required that all drivers implement all API ofthe graphics driver interface.
+The display driver API includes the functions supported by a specific display controller or graphics processing unit. It contains the API which connects the common abstraction to the driver implementation. It is not required that all drivers implement all API of the graphics driver interface.
 
 The Graphics Driver implements the functions defined by the Graphics Driver Interface. It provides a structure of functions for which it implements in its header. If the controller is not capable of a particular function, then the function is not implemented. The structure of functions uses a well-known reference by the graphics library.
 
@@ -54,7 +54,7 @@ There are a few functions in the driver that are not included in the function ta
 
 ### Next Steps
 
-* Learn about our graphics [application development process](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-Development-Process)
+* Learn about our graphics [application development process](Application-Development-Process)
 
 ***
 
@@ -66,4 +66,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-Is this page helpful? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/issues).
+**Is this page helpful**? Send [feedback](issues).

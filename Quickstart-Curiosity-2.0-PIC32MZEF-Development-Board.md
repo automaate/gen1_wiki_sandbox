@@ -1,62 +1,67 @@
 # ![Microchip Technology](images/mhgs.png) Quickstart Curiosity 2.0 PIC32MZEF Development Board
 
-This guide describes the basic steps to create a graphics-enabled application using the
-[Curiosity PIC32MZEF Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320104) connected to a  [WQVGA](https://www.microchip.com/Developmenttools/ProductDetails/AC320005-4). You will build a simple application that displays an image and touch button. It starts with the creation of a new MPLAB® project and finishes with a graphics application equivalent to aria_quickstart.
+This guide describes the basic steps to create a graphics-enabled application.
+
+#### Who should use this guide.
+
+This guide is intended for developers who are building applications on a custom SAME54 board similar to or the same as the
+[Curiosity PIC32MZEF Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320104) connected to a  [WQVGA](https://www.microchip.com/Developmenttools/ProductDetails/AC320005-4).
+
+#### What you will build
+
+You will build a simple application that displays an image, textm, and touch button. It starts with the creation of a new MPLAB® project and finishes with a graphics application equivalent to legato_quickstart.
 
 The demonstration will render the following image on the display:
 
 ![Microchip Technology](images/deep-dive_running.png)
 
-<details><summary>Who should use this guide</summary>
-<p>
+# Contents
 
-This guide is intended for developers who are building applications a custom PIC32MZEF board similar to or the same as the [Curiosity PIC32MZEF Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320104) and the [ WQVGA Display Module (AC320005-4)](https://www.microchip.com/Developmenttools/ProductDetails/AC320005-4). 
+The following bullets detail the steps necessary to create a solution for your board.
 
-</p>
-</details>
+* Get Materials
+* Create a new project
+* Configure Software with MHC 
+* Create UI Design with Legato Composer
+* Save Project
+* Generate, Build, and Run
 
+## Get Materials
 
-<details><summary>What this guide contains</summary>
-<p>
-You will build a simple application that displays an image and touch button. It starts with the creation of a new MPLAB® project and finishes with a graphics application equivalent to aria_quickstart. Here are the primary steps to create a graphics application for your PIC32MZEF hardware:
-
-1. Create a new project and configure clock for PIC32MZEF.
-    *  Create MPLAB Harmony v3 Project using MPLAB X IDE
-    *  Verify Clock Settings
-2. Configure Harmony components for graphics middleware and drivers
-3. Configure pins for external graphics communication
-4. Generate Code
-5. Add application code to project
-6. Build, program and observe outputs
-</p>
-</details>
-
-<details><summary>Materials you will need</summary>
-<p>
-
-## Documentation
+Before you begin this quick start, make sure you have what you will need. The Microchip development documentation and hardware provides a basic foundation that we will use as a reference for your SAM E54 design.
 
 |Documentation|Description|
 |----|----|
 |[PIC32MZ EF Curiosity Development Board User’s Guide](http://ww1.microchip.com/downloads/en/DeviceDoc/70005282B.pdf) | User guide and schematics|
 
-## Hardware 
 
 |Hardware|Description|
 |----|----|
 | [Curiosity PIC32MZEF Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320104)|Development Board |
 | [ WQVGA Display Module (AC320005-4)](https://www.microchip.com/Developmenttools/ProductDetails/AC320005-4). | High-Performance 4.3" WQVGA Display Module |
-| [WQVGA Display Module from MEB II](https://www.microchip.com/Developmenttools/ProductDetails/DM320005-2) |  Alternative High-Performance 4.3" WQVGA Display Module if an MEB-II board is available |
 | Standard USB A to micro-B cable| PC debugging connector. |
 
 > **_NOTE:_** The Curiosity PIC32MZEF Development Board includes an on-board Embedded Debugger (EDBG), which requires no additional hardware to get started. For programming/debugging, the EDBG connects to the host PC through the USB micro-B connector on the Curiosity PIC32MZEF Development Board.
 
-<details><summary>Hardware Setup</summary>
-<p>
+|Software|Description|Install|
+|----|----|----|
+| [MPLAB® X Integrated Development Environment ](https://www.microchip.com/mplab/mplab-x-ide)| v5.15 or later| [Install MPLAB IDE](https://microchipdeveloper.com/install:mplabx) |
+| [MPLAB® XC32/32++ C Compiler](https://www.microchip.com/mplab/compilers) | v2.20 or later | [Install Compiler](https://microchipdeveloper.com/install:xc32)|
+| [MPLAB® Harmony 3 ](https://github.com/Microchip-MPLAB-Harmony/mhc/wiki)| v3.5 or later | [Install Harmony v3](https://microchipdeveloper.com/harmony3:mhc-overview#install)|
+
+> **_NOTE:_** This project has been verified to work with the following versions of software tools:
+MPLAB X IDE v5.20, MPLAB XC32 Compiler v2.20, MPLAB Harmony v3.6.0
+
+> **_NOTE:_** Because we regularly update our tools, occasionally you may discover an issue while using the newer versions. If you suspect that to be the case, we recommend that you use the same versions that the project was tested with.
+
+### Hardware Setup
+
+Configure the hardware as follows:
+
 
 Curiosity PIC32MZEF Development Board is connected to the display using the display ribbon cable. Programming is a board to PC link using a standard USB A to micro-B cable. The connection, illustrated below, provides power and debug communication.
 
-![](images/deep_dive_e70_connect.png)
+![](images/deep-dive_mzef.png)
  
 If your WQVGA display cable is connected to a interposer board, following these steps:
 
@@ -71,31 +76,11 @@ If your WQVGA display cable is connected to a interposer board, following these 
 ![Microchip Technology](images/quickstart_e70_ribbon_cable.png)
 
 ![Important](images/Important%20Star.png) The board and display are powered by a Micro B – USB A cable from PC to the “USB Debug” port on the Curiosity PIC32MZEF Development Board.
-</p>
-</details>
-
-## Software
-
-|Software|Description|Install|
-|----|----|----|
-| [MPLAB® X Integrated Development Environment](https://www.microchip.com/mplab/mplab-x-ide)| v5.15 or later| [Install MPLAB IDE](https://microchipdeveloper.com/install:mplabx) |
-| [MPLAB® XC32/32++ C Compiler](https://www.microchip.com/mplab/compilers) | v2.20 or later | [Install Compiler](https://microchipdeveloper.com/install:xc32)|
-| [MPLAB® Harmony 3](https://github.com/Microchip-MPLAB-Harmony/mhc/wiki)| v3.5 or later | [Install Harmony v3](https://microchipdeveloper.com/harmony3:mhc-overview#install)|
 
 
-> **_NOTE:_** This project has been verified to work with the following versions of software tools:
-MPLAB X IDE v5.20, MPLAB XC32 Compiler v2.20, MPLAB Harmony v3.5.0
+## Create a new project
 
-> **_NOTE:_** Because we regularly update our tools, occasionally you may discover an issue while using the newer versions. If you suspect that to be the case, we recommend that you use the same versions that the project was tested with.
-
-</p>
-</details>
-
-# QuickStart steps
-
-## Create a new MPLAB Harmony v3 project
-
-1. Select **File > New Project** from the main IDE menu.
+1. Launch the **New Project** wizard. Select **File > New Project** from the main IDE menu.
 
 2. In the **Categories** pane of the **New Project** dialog, select **Microchip Embedded**. In the **Projects** pane, select **32-bit MPLAB Harmony 3 Project**, then click **Next**.
 
@@ -131,13 +116,8 @@ MPLAB X IDE v5.20, MPLAB XC32 Compiler v2.20, MPLAB Harmony v3.5.0
 
 ![Microchip Technology](images/pic32_mzef_newprj4.png)
 
-> **_NOTE:_** The **New Project Wizard** opens a Configuration Database Setup window to allow you to review the packages that will be used by the current project.
 
-6. While the MHC tool launches, it will ask for the packages to be loaded. In the **Load** checkboxes list, select the **gfx**, **core**, and **bsp** packages and unselect all other packages.
-
-![Microchip Technology](images/same70_launch_step.png)
-
-Click **Launch** to launch the MHC Configurator tool with the selected packages.
+6. Click **Launch** to launch the MHC Configurator tool with the selected packages.
 
 * **Launching MPLAB Harmony Configurator**. The following message will be displayed while the project is loaded into MPLAB X.
 
@@ -361,10 +341,6 @@ The demonstration will display the following UI:
 
 ![Microchip Technology](images/QSG%2060%20Seconds%20Final%20Display.png)
 
-# Observations
-
-You observed that the application displayed the home screen. You were able to change screens and control widgets.
-
 # Review
 
 You have successfully created an application using MPLAB Harmony v3 on Curiosity PIC32MZ EF 2.0. Your application used all the fundamental elements that go in building a graphics application. Your application successfully rendered a UI to the High-Performance 4.3" WQVGA Display Module. The application also took user from the display module.
@@ -376,9 +352,9 @@ In this application, you used MPLAB® Harmony Configurator (MHC) to configure Cu
 This guide provided you training of configuring and using all the fundamental components needed to build a graphics application on a Curiosity PIC32MZ EF 2.0 Development Board with MPLAB Harmony v3 Framework. As a next step, you may customize this application and reconfigure some of the components used in this tutorial. You could also add new components (PLIBs, etc.) to enhance this application to realize your end application.
 
 Next Steps
-* Learn how to add events to the project: [Adding Event to a Graphics Application ](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Adding-Event-to-a-Graphics-Application)
+* Learn how to add events to the project: [Adding Event to a Graphics Application ](Adding-Event-to-a-Graphics-Application)
 
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

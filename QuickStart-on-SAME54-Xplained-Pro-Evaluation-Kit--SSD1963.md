@@ -386,4 +386,4 @@ This guide provided you training of configuring and using all the fundamental co
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

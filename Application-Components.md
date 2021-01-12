@@ -1,6 +1,6 @@
 # Summary
 
-A collection of applications are provided with MPLAB® Harmony Graphics Suite to help new users get started with MPLAB Harmony Graphics Suite development. This page describes the makeup of a MPLAB Harmony Graphics Suite application.
+A collection of applications are provided with MPLAB® Harmony Graphics Suite to help new users get started with MPLAB® Harmony Graphics Suite development. This page describes the makeup of a MPLAB® Harmony Graphics Suite application.
 
 ![Microchip Technology](images/architecture_harmony.png)
 
@@ -79,3 +79,6 @@ If you are familiar with MPLAB Harmony Graphics Suite
    *   [Creating Graphics Application on your board](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-Deep-Dive)
    *   [Migrate an application from Harmony v2.06 to v3.04](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Migrate-aria_quickstart-v2.06-to-3.04-pic32mz_ef_sk_meb2)
    *   [Frequently Asked Questions (FAQs)](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-Troubleshooting)
+
+
+**Is this page helpful**? Send [feedback](issues).

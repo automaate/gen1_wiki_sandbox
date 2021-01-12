@@ -121,4 +121,4 @@ Review the following before you migrate your app from earlier versions of the MP
 * See **What's New** for descriptions of new features that you may want to add to your app.
 
 
-[Send Feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues)
+**Is this page helpful**? Send [feedback](issues).

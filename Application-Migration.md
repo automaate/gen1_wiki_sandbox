@@ -8,7 +8,7 @@ MPLAB Harmony Graphics Suite 3 introduces new features and APIs that you can tak
 
 If you created your app using an earlier version of the MPLAB Harmony Graphics Suite, you can upgrade to the latest version MPLAB Harmony Graphics Suite.
 
-Note: To target a new application on the frame see [Quickstart](https://github.com/automaate/GFX_sandbox/wiki/Application-QuickStart).
+Note: To target a new application on the frame see [Quickstart](Application-QuickStart).
 
 
 ### Migration Benefits
@@ -21,8 +21,8 @@ Note: some changes in the MPLAB Harmony Graphics Suite require changes to your c
 
 # Migration Tutorials
 
-* [Migrate aria_quickstart v2.06 pic32mz_ef_sk_meb2 => GFX v3.4](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Migrate-aria_quickstart-v2.06-to-3.04-pic32mz_ef_sk_meb2)
-* [Migrate aria_qs_e70_xu_tm4301b to Legato](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Migrate-aria_qs_e70_xu_tm4301b-to-legato)
+* [Migrate aria_quickstart v2.06 pic32mz_ef_sk_meb2 => GFX v3.4](Migrate-aria_quickstart-v2.06-to-3.04-pic32mz_ef_sk_meb2)
+* [Migrate aria_qs_e70_xu_tm4301b to Legato](Migrate-aria_qs_e70_xu_tm4301b-to-legato)
 
 ***
 

@@ -47,7 +47,7 @@ The graphics library supports a Graphics Processor Unit (GPU) platforms. The gra
 <details><summary>Drivers</summary>
 <p>
 
-MPLAB Harmony Graphics Suite provides capability to create custom [graphics drivers](https://github.com/Microchip-MPLAB-Harmony/Microchip-MPLAB-Harmony.github.io/wiki)for low-level hardware communication. The suite contains the following drivers:
+MPLAB Harmony Graphics Suite provides capability to create custom [graphics drivers](Driver-Essentials) for low-level hardware communication. The suite contains the following drivers:
 
 * Display Controller Driver
 MPLAB Harmony Graphics Suite Drivers supports a wide range of displays, with a focus on LCDs. From QVGA to WVGA. It supports multi-layer display controller, OLED, SPI, and parallel interfaces.
@@ -64,7 +64,7 @@ MPLAB Harmony Graphics Suite Drivers provides support for single, two finger-tou
 <details><summary>Configurator</summary>
 <p>
 
-MPLAB Harmony Graphics Suite supports the configuration and generation of the code from the designer, graphics library, and drivers through [graphics configurator](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Configurator). It produces custom code specific to the needs of a project. It provides a data setting environment to help bind modules, peripherals, widgets, memory, assets together into a final application for compilation.
+MPLAB Harmony Graphics Suite supports the configuration and generation of the code from the designer, graphics library, and drivers through [graphics configurator](Configurator). It produces custom code specific to the needs of a project. It provides a data setting environment to help bind modules, peripherals, widgets, memory, assets together into a final application for compilation.
 
 </p>
 </details>
@@ -82,11 +82,11 @@ Apps included in a release have no special status other than to run on Microchip
 
 ## Graphic Suite Tutorials
 
-* [Getting started with Application Essentials](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-Essentials)
-* [Getting started with Configurator](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Configurator)
-* [Getting started with Composer](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Composer)
-* [Getting started with Graphics Library](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Graphics-Library)
-* [Getting started with Display Manager](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Display-Manager)
+* [Getting started with Application Essentials](Application-Essentials)
+* [Getting started with Configurator](Configurator)
+* [Getting started with Composer](Composer)
+* [Getting started with Graphics Library](Graphics-Library)
+* [Getting started with Display Manager](Display-Manager)
 
 ***
 

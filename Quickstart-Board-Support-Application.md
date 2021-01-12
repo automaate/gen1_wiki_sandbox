@@ -18,7 +18,7 @@ A board support is needed after creating a new or modifying an existing hardware
 
 If you are using a non-supported board (your custom board), you will need to create your board support manually using your schematic. Schematics are the key to designing, building, and troubleshooting your graphics board support application. Understanding how to read and follow schematics is required when creating your board support.
 
-> **_NOTE:_** Please reference a hardware platform in [Build New Application](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Build-a-New-Application) to understand how Microchip applications establishes a board support without using a BSP or graphics template.
+> **_NOTE:_** Please reference a hardware platform in [Build New Application](Build-a-New-Application) to understand how Microchip applications establishes a board support without using a BSP or graphics template.
  
 ## Requirements
 
@@ -27,7 +27,7 @@ Before you begin you must have the following tools:
 * [MPLAB X IDE](https://microchipdeveloper.com/mplabx:installation)
 * [XC32 C compiler](https://microchipdeveloper.com/xc32:installation)
 * [MPLAB® Harmony v3](https://microchipdeveloper.com/harmony3:mhc-overview)
-* [Development board](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards)
+* [Development board](Supported-Development-Boards)
 
 ## Tutorial 1: Automatically Create a Board Support Application Using Harmony BSP and Graphics Templates
 
@@ -442,7 +442,7 @@ The MHC will include all the MPLAB® Harmony library files and generate the code
 
 ***
 ## Next Steps
-* Learn how to [build new applications](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-Pre-built-Applications)
+* Learn how to [build new applications](Quickstart-Pre-built-Applications)
 
 ***
 If you are new to MPLAB Harmony, you should probably start with these tutorials:
@@ -453,4 +453,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

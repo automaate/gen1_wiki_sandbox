@@ -1,6 +1,6 @@
 # ![Microchip Technology](images/mhgs.png) **MPLAB® Harmony Graphics Suite**
 
-[MPLAB® Harmony Graphics Suite](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/MPLAB-Harmony-Graphics-Suite) is a free fast-to-market graphics software development environment for [MPLAB Harmony v3 Framework](https://www.microchip.com/mplab/mplab-harmony) on Microchip 32-bit family of devices. See our [supported development boards](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards).
+[MPLAB® Harmony Graphics Suite](wiki/MPLAB-Harmony-Graphics-Suite) is a free fast-to-market graphics software development environment for [MPLAB Harmony v3 Framework](https://www.microchip.com/mplab/mplab-harmony) on Microchip 32-bit family of devices. See our [supported development boards](wiki/Supported-Development-Boards).
 
 ## License
 
@@ -10,7 +10,7 @@ MPLAB Harmony Graphics Suite is available for free. Read the MPLAB Harmony v3 In
 [Download](https://microchipdeveloper.com/harmony3:mhc-overview#install) MPLAB Harmony v3 Framework. For information on what is included in a MPLAB Harmony Graphics Suite [release version](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/readme.md), please read MPLAB Harmony Graphics Suite [release notes](https://github.com/Microchip-MPLAB-Harmony/gfx/blob/master/release_notes.md).
 
 ## Getting started
-To get started quickly, we recommend learning about our [quickstart pre-built](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-Pre-built-Applications) applications.  
+To get started quickly, we recommend learning about our [quickstart pre-built](wiki/Quickstart-Pre-built-Applications) applications.  
 
 ***
 
@@ -22,4 +22,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

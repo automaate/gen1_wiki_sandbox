@@ -1,6 +1,6 @@
 # ![Microchip Technology](images/mhgs.png) Build a New Application
 
-A collection of guides are provided with MPLAB Harmony Graphics Suite to help users create new applications. These guides were created using Microchip [supported development boards](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards). Although these guides run on Microchip boards, customers are free to reference any board and application for their custom designs.
+A collection of guides are provided with MPLAB Harmony Graphics Suite to help users create new applications. These guides were created using Microchip [supported development boards](Supported-Development-Boards). Although these guides run on Microchip boards, customers are free to reference any board and application for their custom designs.
 
 Note: Complete applications are part of each MPLAB Harmony distribution. Visit the [quickstart apps](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/apps) and [feature apps](https://github.com/Microchip-MPLAB-Harmony/gfx_apps/tree/master/apps) for more information.
 
@@ -12,15 +12,17 @@ Note: Complete applications are part of each MPLAB Harmony distribution. Visit t
 
 # Build New Application Guides
 
-<!---
-* [QuickStart on SAMC21N Xplained Pro Evaluation Kit](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/QuickStart-SAMC21N-Xplained-Pro-Evaluation-Kit)
--->
-* [QuickStart on SAM E70 Xplained Ultra Evaluation Kit](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/QuickStart-SAME70-Xplained-Ultra-Evaluation-Kit)
-* [QuickStart on SAM E54 Xplained Pro Evaluation Kit-Curiosity Pro](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/QuickStart-on-SAME54-Xplained-Pro-Evaluation-Kit-CPRO)
-* [QuickStart on SAM E54 Xplained Pro Evaluation Kit-SSD1963](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/QuickStart-on-SAME54-Xplained-Pro-Evaluation-Kit--SSD1963)
-* [QuickStart on Curiosity 2.0 PIC32MZEF Development Board](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-Curiosity-2.0-PIC32MZEF-Development-Board)
-* [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA)
+## Legato
 
+* [QuickStart on SAM E70 Xplained Ultra Evaluation Kit](QuickStart-SAME70-Xplained-Ultra-Evaluation-Kit)
+* [QuickStart on SAM E54 Curiosity Ultra Evaluation Kit + Curiosity Pro Display](QuickStart-on-SAME54-Curiosity-Ultra-Evaluation-Kit-CPRO)
+
+## Aria
+
+* [QuickStart on SAMC21N Xplained Pro Evaluation Kit](QuickStart-SAMC21N-Xplained-Pro-Evaluation-Kit)
+* [QuickStart on SAM E54 Xplained Pro Evaluation Kit + SSD1963 Display Controller](QuickStart-on-SAME54-Xplained-Pro-Evaluation-Kit--SSD1963)
+* [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA)
+<!-- * [QuickStart on Curiosity 2.0 PIC32MZEF Development Board](Quickstart-Curiosity-2.0-PIC32MZEF-Development-Board) -->
 
 ***
 
@@ -32,4 +34,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

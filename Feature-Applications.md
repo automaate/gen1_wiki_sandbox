@@ -1,35 +1,12 @@
-# ![Microchip Technology](images/mhgs.png) Quickstart Feature Applications
+# ![Microchip Technology](images/mhgs.png) Feature Applications
 
 Feature applications lets you get started with MPLAB Harmony Graphics Suite features in about 30 seconds. These applications should give you a ready-made starting point for writing your own UI application with MPLAB Harmony Graphics Suite.
 
-## Feature Examples
+These applications were created using Microchip [supported development boards](Supported-Development-Boards). 
 
-The following table below lists [feature applications](https://microchip-mplab-harmony.github.io/gfx_apps/00039.html) built using MPLAB Harmony Graphics Suite and the development boards on which they run. To find a detailed description of these applications, see [Examples and Demonstrations](https://microchip-mplab-harmony.github.io/gfx_apps/00039.html).
+To find a detailed description of these applications, see [Aria Applications](https://microchip-mplab-harmony.github.io/gfx/docs/aria/html/frames.html?frmname=topic&frmfile=00727.html) and [Legato Applications](https://microchip-mplab-harmony.github.io/gfx/docs/legato/html/pages.html).
 
-| Applications | [SAM E54 Xplained Pro](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME54-XPRO) | [SAM E70 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/PartNO/ATSAME70-XPLD) | [SAM A5D2 Xplained Ultra](https://www.microchip.com/developmenttools/ProductDetails/atsama5d2c-xult) |[Multimedia Expansion Board II](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320005-5) |SAM 9x60 Evaluation Kit|[Curiosity PIC32MZ EF 2.0](https://www.microchip.com/Developmenttools/ProductDetails/DM320209) |
-| --- | --- | --- | --- | --- | --- | --- |
-| [aria_adventure](https://microchip-mplab-harmony.github.io/gfx_apps/00001.html)          |   |   |   | x | | |
-| [aria_benchmark](https://microchip-mplab-harmony.github.io/gfx_apps/00002.html)          | x | x | x | x | x | |
-| [aria_dashboard](https://microchip-mplab-harmony.github.io/gfx_apps/00003.html)         |   |   | x | x | x | |
-| [aria_image_viewer](https://microchip-mplab-harmony.github.io/gfx_apps/00004.html)       |   |   |   | x |   | |
-| [aria_infotainment](https://microchip-mplab-harmony.github.io/gfx_apps/00005.html)       |   |   |   | x | | |
-| [aria_mxt_configure](https://microchip-mplab-harmony.github.io/gfx_apps/00006.html)      |   |   |   |   | | |
-| [aria_oven_controller](https://microchip-mplab-harmony.github.io/gfx_apps/00007.html)    |   | x |   | x | | |
-| [aria_radial_menu](https://microchip-mplab-harmony.github.io/gfx_apps/00008.html)        |   |   |   | x | | |
-| [aria_showcase](https://microchip-mplab-harmony.github.io/gfx_apps/00009.html)           |   | x |   | x | | |
-| [aria_showcase_reloaded](https://microchip-mplab-harmony.github.io/gfx_apps/00010.html)  |   | x |   |   | | |
-| [aria_thermostat](https://microchip-mplab-harmony.github.io/gfx_apps/00012.html)         |   |   |   |  | |x |
-| [aria_weather_forecast](https://microchip-mplab-harmony.github.io/gfx_apps/00013.html)   |   | x |   |   | | |
-| [legato_benchmark](https://microchip-mplab-harmony.github.io/gfx_apps/00014.html)        | x | x |   |   | | |
-| [legato_monitor](https://microchip-mplab-harmony.github.io/gfx_apps/00014.html)          | x |   |   |   | | |
-| [legato_showcase](https://microchip-mplab-harmony.github.io/gfx_apps/00016.html)         | x |   |   |   | | |
-
-Before you begin you must install the following tools:
-
-* [MPLAB X IDE](https://microchipdeveloper.com/mplabx:installation)
-* [XC32 C compiler](https://microchipdeveloper.com/xc32:installation)
-* [MPLAB® Harmony v3](https://microchipdeveloper.com/harmony3:mhc-overview)
-* [Development board](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards)
+Follow the steps below, to run a feature application.
 
 ## Step 1: Get a feature app
 
@@ -84,8 +61,8 @@ MHC will include all the MPLAB Harmony library files and generate the code based
 
 ***
 ## Next Steps
-* Understand our [board support facilities](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-Board-Support-Application)
-* Learn how to [build new applications](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-Pre-built-Applications)
+* Understand our [board support facilities](Quickstart-Board-Support-Application)
+* Learn how to [build new applications](Quickstart-Pre-built-Applications)
 
 ***
 If you are new to MPLAB Harmony, you should probably start with these tutorials:
@@ -96,4 +73,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).

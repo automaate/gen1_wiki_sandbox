@@ -1,6 +1,6 @@
 # ![Microchip Technology](images/mhgs.png)  Application Quickstarts
 
-A collection of driver quickstart tutorials are provided with MPLAB Harmony Graphics Suite to help users understand and create drivers quickly. Some of these guides were created using Microchip [supported development boards](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Supported-Development-Boards)  while others were created using a mixture of 3rd-Party development board solutions.
+A collection of driver quickstart tutorials are provided with MPLAB Harmony Graphics Suite to help users understand and create drivers quickly. Some of these guides were created using Microchip [supported development boards](Supported-Development-Boards)  while others were created using a mixture of 3rd-Party development board solutions.
 
 Although some of these guides run on Microchip boards, customers are free to reference our solutions to enable their custom designs.
 
@@ -13,7 +13,7 @@ Note: Complete applications are part of each MPLAB Harmony distribution. Visit t
 * Recommended Peripheral and external device communication
 
 # QuickStart Drivers Guides
-* Quickstart [Display Driver for SSD1963 Controller](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Quickstart-SSD1963-Display-Driver)
+* Quickstart [Display Driver for SSD1963 Controller](Quickstart-SSD1963-Display-Driver)
 
 ***
 
@@ -25,4 +25,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/issues).
+**Is this page helpful**? Send [feedback](issues).

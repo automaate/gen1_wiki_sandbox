@@ -1,4 +1,4 @@
-# ![Microchip Technology](images/mhgs.png) Application Troubleshooting
+# ![Microchip Technology](images/mhgs.png) Troubleshooting FAQ
 
 A collection of MPLAB® Harmony Graphics Suite Frequently Asked Questions (FAQs) and answers are provided for additional support on application development.
 
@@ -53,14 +53,14 @@ https://www.microchip.com/forums/m1098138.aspx
 <p>
 It is possible the display black light is not enabled (whether the driver setting or the actual pin is not hooked up).  If that is the case, the frame buffer data may be getting to the display and just not easily visible because the backlight is off.
 
-See: [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](https://github.com/automaate/GFX_sandbox/wiki/QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA) for hardware configuration and pin settings.
+See: [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA) for hardware configuration and pin settings.
 
 </p>
 </details>
 
 <details><summary>Why is the display distorted on MEB-II board using PIC32MZ DA?</summary>
 <p>
-Verify that SYSCLK, REFCLK5, and MPLL are set appropriately for your design. For an example of default settings, see: [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](https://github.com/automaate/GFX_sandbox/wiki/QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA).
+Verify that SYSCLK, REFCLK5, and MPLL are set appropriately for your design. For an example of default settings, see: [QuickStart on Multimedia Expansion Board II with PIC32MZ DA](QuickStart-on-Multimedia-Expansion-Board-II-with-PIC32MZ-DA-WQVGA).
 
 If these settings are not working your your device, [Send Feedback](https://github.com/automaate/GFX_sandbox/issues).
 </p>

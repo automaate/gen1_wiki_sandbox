@@ -59,11 +59,11 @@ Not only are components connected to software modules, but connected to hardware
 
 ![Microchip Technology](images/deep-dive_e70_touch_pins.png)
 
-Note: There are two macro based components for Microchip hardware:  Board Support Support (BSP) and Graphics Templates. They are used to auto-set components, its dependencies, options, and pins based on the device selected. Graphics Templates specifically set specific graphics connectivity such as display boards, external memory, touch input, and run-time RTOS support. These packages are not required, but are provided for ease-of-use. See: [Build a New Applicaton](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Build-a-New-Application) to understand how to manually establish  connectivity using your hardware.
+Note: There are two macro based components for Microchip hardware:  Board Support Support (BSP) and Graphics Templates. They are used to auto-set components, its dependencies, options, and pins based on the device selected. Graphics Templates specifically set specific graphics connectivity such as display boards, external memory, touch input, and run-time RTOS support. These packages are not required, but are provided for ease-of-use. See: [Build a New Applicaton](Build-a-New-Application) to understand how to manually establish  connectivity using your hardware.
 
 ## Display Managing
 
-A UI application cannot be visual until the display component has its correct properties managed. After the configuration process, development continues with [display manager](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Display-Manager). The MPLAB Harmony Configurator (MHC) contains a display driver creation and management tool to support the interface to a variety of industry displays. It provides everything needed to support the rendering of pixel on your display.
+A UI application cannot be visual until the display component has its correct properties managed. After the configuration process, development continues with [display manager](Display-Manager). The MPLAB Harmony Configurator (MHC) contains a display driver creation and management tool to support the interface to a variety of industry displays. It provides everything needed to support the rendering of pixel on your display.
 
 ## Code Generation
 
@@ -77,11 +77,11 @@ Visual inspection of LED lights, backlight, pixel rendering is performed at this
 
 # Graphics Tutorials
 
-* [Application-Components](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-Components)
+* [Application-Components](Application-Components)
 
 ### Next Steps
 
-* Learn about our graphics [quickstart guides](https://github.com/Microchip-MPLAB-Harmony/gfx/wiki/Application-QuickStart)
+* Learn about our graphics [quickstart guides](Application-QuickStart)
 
 ***
 
@@ -93,4 +93,4 @@ If you are new to MPLAB Harmony, you should probably start with these tutorials:
 
 ***
 
-**Is this page helpful**? Send [feedback](https://github.com/Microchip-MPLAB-Harmony/gfx/issues).
+**Is this page helpful**? Send [feedback](issues).
